@@ -21,12 +21,19 @@
 		DAF4CE561C8DFEE400143978 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF4CE551C8DFEE400143978 /* Constants.swift */; };
 		DAF4CE581C8E045600143978 /* MaterialButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF4CE571C8E045600143978 /* MaterialButton.swift */; };
 		DAF4CE5A1C8E09AF00143978 /* MaterialTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF4CE591C8E09AF00143978 /* MaterialTextField.swift */; };
+		DAF4CE5D1C8F65D400143978 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAF4CE5C1C8F65D400143978 /* Bolts.framework */; };
+		DAF4CE601C8F65E700143978 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAF4CE5E1C8F65E700143978 /* FBSDKCoreKit.framework */; };
+		DAF4CE611C8F65E700143978 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAF4CE5F1C8F65E700143978 /* FBSDKLoginKit.framework */; };
+		FDEF68472517382875D4DC05 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C65411D6473F746463927D6 /* Pods.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4118B711B55C27C08E54ACE4 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		9C65411D6473F746463927D6 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7AF3BC9C5DB14F65CB5A236 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		DA2A05A81C8DF90B00B3F14D /* Social-Silliness.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Social-Silliness.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA2A05AB1C8DF90B00B3F14D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DA2A05AD1C8DF90B00B3F14D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DA2A05AD1C8DF90B00B3F14D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = "Social-Silliness/ViewController.swift"; sourceTree = "<group>"; };
 		DA2A05B01C8DF90B00B3F14D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DA2A05B31C8DF90B00B3F14D /* Social_Silliness.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Social_Silliness.xcdatamodel; sourceTree = "<group>"; };
 		DA2A05B51C8DF90B00B3F14D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -40,6 +47,9 @@
 		DAF4CE551C8DFEE400143978 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		DAF4CE571C8E045600143978 /* MaterialButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialButton.swift; sourceTree = "<group>"; };
 		DAF4CE591C8E09AF00143978 /* MaterialTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialTextField.swift; sourceTree = "<group>"; };
+		DAF4CE5C1C8F65D400143978 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		DAF4CE5E1C8F65E700143978 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		DAF4CE5F1C8F65E700143978 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,15 +57,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DAF4CE5D1C8F65D400143978 /* Bolts.framework in Frameworks */,
+				DAF4CE601C8F65E700143978 /* FBSDKCoreKit.framework in Frameworks */,
+				DAF4CE611C8F65E700143978 /* FBSDKLoginKit.framework in Frameworks */,
+				FDEF68472517382875D4DC05 /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A37E0B76A8EB67B1C040B1C8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A7AF3BC9C5DB14F65CB5A236 /* Pods.debug.xcconfig */,
+				4118B711B55C27C08E54ACE4 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		DA2A059F1C8DF90B00B3F14D = {
 			isa = PBXGroup;
 			children = (
+				DAF4CE5B1C8F65C400143978 /* Frameworks */,
 				DAF4CE541C8DFECE00143978 /* Util */,
 				DA2A05C31C8DF96C00B3F14D /* Resources */,
 				DA2A05C21C8DF93700B3F14D /* Model */,
@@ -63,6 +87,7 @@
 				DA2A05C01C8DF92700B3F14D /* Controller */,
 				DA2A05AA1C8DF90B00B3F14D /* Social-Silliness */,
 				DA2A05A91C8DF90B00B3F14D /* Products */,
+				A37E0B76A8EB67B1C040B1C8 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -78,8 +103,6 @@
 			isa = PBXGroup;
 			children = (
 				DA2A05AB1C8DF90B00B3F14D /* AppDelegate.swift */,
-				DA2A05AD1C8DF90B00B3F14D /* ViewController.swift */,
-				DA2A05AF1C8DF90B00B3F14D /* Main.storyboard */,
 				DA2A05B51C8DF90B00B3F14D /* Assets.xcassets */,
 				DA2A05B71C8DF90B00B3F14D /* LaunchScreen.storyboard */,
 				DA2A05BA1C8DF90B00B3F14D /* Info.plist */,
@@ -91,6 +114,7 @@
 		DA2A05C01C8DF92700B3F14D /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				DA2A05AD1C8DF90B00B3F14D /* ViewController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -98,6 +122,7 @@
 		DA2A05C11C8DF93000B3F14D /* View */ = {
 			isa = PBXGroup;
 			children = (
+				DA2A05AF1C8DF90B00B3F14D /* Main.storyboard */,
 				DAF4CE521C8DFE3700143978 /* MaterialView.swift */,
 				DAF4CE571C8E045600143978 /* MaterialButton.swift */,
 				DAF4CE591C8E09AF00143978 /* MaterialTextField.swift */,
@@ -131,6 +156,17 @@
 			name = Util;
 			sourceTree = "<group>";
 		};
+		DAF4CE5B1C8F65C400143978 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DAF4CE5E1C8F65E700143978 /* FBSDKCoreKit.framework */,
+				DAF4CE5F1C8F65E700143978 /* FBSDKLoginKit.framework */,
+				DAF4CE5C1C8F65D400143978 /* Bolts.framework */,
+				9C65411D6473F746463927D6 /* Pods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,9 +174,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DA2A05BD1C8DF90B00B3F14D /* Build configuration list for PBXNativeTarget "Social-Silliness" */;
 			buildPhases = (
+				88D08CB87B23704DDC325FE6 /* Check Pods Manifest.lock */,
 				DA2A05A41C8DF90B00B3F14D /* Sources */,
 				DA2A05A51C8DF90B00B3F14D /* Frameworks */,
 				DA2A05A61C8DF90B00B3F14D /* Resources */,
+				6364230344348A6D210E4BCB /* Embed Pods Frameworks */,
+				ECD634E7BB1DF4FF30897A06 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -202,6 +241,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6364230344348A6D210E4BCB /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		88D08CB87B23704DDC325FE6 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		ECD634E7BB1DF4FF30897A06 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DA2A05A41C8DF90B00B3F14D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -226,6 +313,7 @@
 				DA2A05B01C8DF90B00B3F14D /* Base */,
 			);
 			name = Main.storyboard;
+			path = "Social-Silliness";
 			sourceTree = "<group>";
 		};
 		DA2A05B71C8DF90B00B3F14D /* LaunchScreen.storyboard */ = {
@@ -324,8 +412,13 @@
 		};
 		DA2A05BE1C8DF90B00B3F14D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7AF3BC9C5DB14F65CB5A236 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "Social-Silliness/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.hollyanderic.Social-Silliness";
@@ -335,8 +428,13 @@
 		};
 		DA2A05BF1C8DF90B00B3F14D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4118B711B55C27C08E54ACE4 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "Social-Silliness/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.hollyanderic.Social-Silliness";
