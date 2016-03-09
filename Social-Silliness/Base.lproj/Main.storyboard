@@ -131,7 +131,7 @@
                                         </constraints>
                                         <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" name="NotoSans" family="Noto Sans" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits"/>
+                                        <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                                     </textField>
                                     <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gdl-9g-0fX" customClass="MaterialButton" customModule="Social_Silliness" customModuleProvider="target">
                                         <rect key="frame" x="187" y="214" width="187" height="33"/>
@@ -144,6 +144,9 @@
                                         <state key="normal" title="Login / Signup">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="attemptLogin:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ged-cU-Ar5"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -181,10 +184,33 @@
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Rn7-kV-z9w" secondAttribute="bottom" constant="20" id="tme-pi-kaT"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="emailField" destination="OCc-KO-X4A" id="1eb-M2-xXa"/>
+                        <outlet property="passwordField" destination="YSG-qk-Di4" id="vWu-g0-vMP"/>
+                        <segue destination="hTu-EG-vmF" kind="show" identifier="loggedIn" id="522-zh-HLx"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="223" y="234"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="cHp-LP-7MJ">
+            <objects>
+                <viewController id="hTu-EG-vmF" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="07i-8a-HqC"/>
+                        <viewControllerLayoutGuide type="bottom" id="fF6-jz-PAW"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="TW4-B6-SrI">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.1176470588" green="0.53333333329999999" blue="0.8980392157" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="X0H-3A-CTb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="885" y="234"/>
         </scene>
     </scenes>
     <resources>
