@@ -18,6 +18,8 @@
 		DA2A05CA1C8DF98400B3F14D /* NotoSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DA2A05C61C8DF98400B3F14D /* NotoSans-Italic.ttf */; };
 		DA2A05CB1C8DF98400B3F14D /* NotoSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DA2A05C71C8DF98400B3F14D /* NotoSans-Regular.ttf */; };
 		DA4EF66D1C8FA3C000A00168 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4EF66C1C8FA3C000A00168 /* DataService.swift */; };
+		DAE052551C90C6E100473D1E /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE052541C90C6E100473D1E /* FeedVC.swift */; };
+		DAE052571C90C81500473D1E /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE052561C90C81500473D1E /* PostCell.swift */; };
 		DAF4CE531C8DFE3700143978 /* MaterialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF4CE521C8DFE3700143978 /* MaterialView.swift */; };
 		DAF4CE561C8DFEE400143978 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF4CE551C8DFEE400143978 /* Constants.swift */; };
 		DAF4CE581C8E045600143978 /* MaterialButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF4CE571C8E045600143978 /* MaterialButton.swift */; };
@@ -45,6 +47,8 @@
 		DA2A05C61C8DF98400B3F14D /* NotoSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Italic.ttf"; sourceTree = "<group>"; };
 		DA2A05C71C8DF98400B3F14D /* NotoSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Regular.ttf"; sourceTree = "<group>"; };
 		DA4EF66C1C8FA3C000A00168 /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		DAE052541C90C6E100473D1E /* FeedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
+		DAE052561C90C81500473D1E /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
 		DAF4CE521C8DFE3700143978 /* MaterialView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialView.swift; sourceTree = "<group>"; };
 		DAF4CE551C8DFEE400143978 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		DAF4CE571C8E045600143978 /* MaterialButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialButton.swift; sourceTree = "<group>"; };
@@ -118,6 +122,7 @@
 			isa = PBXGroup;
 			children = (
 				DA2A05AD1C8DF90B00B3F14D /* ViewController.swift */,
+				DAE052541C90C6E100473D1E /* FeedVC.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -129,6 +134,7 @@
 				DAF4CE521C8DFE3700143978 /* MaterialView.swift */,
 				DAF4CE571C8E045600143978 /* MaterialButton.swift */,
 				DAF4CE591C8E09AF00143978 /* MaterialTextField.swift */,
+				DAE052561C90C81500473D1E /* PostCell.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -305,6 +311,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DAE052551C90C6E100473D1E /* FeedVC.swift in Sources */,
 				DAF4CE561C8DFEE400143978 /* Constants.swift in Sources */,
 				DA2A05B41C8DF90B00B3F14D /* Social_Silliness.xcdatamodeld in Sources */,
 				DAF4CE581C8E045600143978 /* MaterialButton.swift in Sources */,
@@ -313,6 +320,7 @@
 				DAF4CE531C8DFE3700143978 /* MaterialView.swift in Sources */,
 				DAF4CE5A1C8E09AF00143978 /* MaterialTextField.swift in Sources */,
 				DA4EF66D1C8FA3C000A00168 /* DataService.swift in Sources */,
+				DAE052571C90C81500473D1E /* PostCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
