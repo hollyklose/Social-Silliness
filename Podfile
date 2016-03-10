@@ -5,6 +5,8 @@ use_frameworks!
 
 pod 'Firebase', '>= 2.5.0'
 
+pod 'Alamofire', '~> 3.0'
+
 target 'Social-Silliness' do
 
 end
